@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Tourism</title>
+    <style>
+        body {
+            background-color: beige;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: darkblue;
+        }
+        .section-title {
+            color: black;
+            margin-top: 20px;
+        }
+        p {
+            color: #333;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body style:"background-color=cyan;">
+
+    <h1><i><b>Exploring the Wonders of Indian Tourism</b></i></h1>
+    <p>India offers a diverse blend of culture, history, nature, and adventure. Whether it's spiritual retreats, historical marvels, or thrilling landscapes, there’s something for every traveler.</p>
+
+    <h2 class="section-title"><i>1. Cultural and Heritage Sites</i></h2>
+    <img src="taj-mahal.jpg" alt="Taj Mahal">
+    <p>From the majestic Taj Mahal to the ancient temples of Varanasi, India is a treasure trove of heritage. Cities like Jaipur and Delhi boast historic forts and palaces reflecting India's rich past.</p>
+
+    <h2 class="section-title"><i>2. Natural Beauty</i></h2>
+    <img src="kerala-backwaters.jpg" alt="Kerala Backwaters">
+    <p>The snow-capped Himalayas, the lush Kerala backwaters, and the golden sands of Rajasthan create a mesmerizing landscape. For those seeking adventure, Leh-Ladakh and the Andaman Islands offer unforgettable experiences.</p>
+
+    <h2 class="section-title"><i>3. Adventure and Wildlife</i></h2>
+    <img src="jim-corbett.jpg" alt="Jim Corbett National Park">
+    <p>Adventure seekers can trek in the Himalayas or indulge in water sports in Rishikesh. Wildlife enthusiasts can visit Ranthambore and Jim Corbett to witness majestic tigers, elephants, and more.</p>
+
+    <h2 class="section-title"><i>4. Spiritual Journeys</i></h2>
+    <img src="varanasi-ghats.jpg" alt="Varanasi Ghats">
+    <p>India’s spiritual destinations, like Varanasi, Rishikesh, and Bodh Gaya, provide profound experiences. Meditation retreats in Auroville and Kerala’s ashrams offer inner peace and healing.</p>
+
+    <h2 class="section-title"><i>5. Festivals and Cuisine</i></h2>
+    <img src="indian-festival.jpg" alt="Indian Festival">
+    <p>India’s festivals, such as Diwali and Holi, are vibrant and immersive. The diverse cuisine ranges from spicy street food to luxurious dishes like Hyderabadi biryani and Mughlai kebabs.</p>
+
+    <h2 class="section-title"><i>6. Modern Attractions</i></h2>
+    <img src="mumbai-skyline.jpg" alt="Mumbai Skyline">
+    <p>Beyond history and nature, India’s metro cities offer world-class shopping, entertainment, and nightlife. Mumbai’s skyline, Bangalore’s tech hubs, and Delhi’s bustling markets showcase modern India.</p>
+
+    <h2><i>Conclusion</i></h2>
+    <p>From historical wonders to modern attractions, India is a traveler’s paradise. Whether you seek culture, adventure, spirituality, or relaxation, India promises an unforgettable experience.</p>
+
+</body>
+</html>
