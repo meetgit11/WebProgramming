@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Resume</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .resume-container {
+            display: flex;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex-wrap: wrap; /* Added to make the layout responsive */
+        }
+        .left-section {
+            flex: 1;
+            margin-right: 20px;
+            text-align: center;
+            flex-basis: 250px;
+        }
+        .left-section img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 3px solid #333;
+        }
+        .left-section h2 {
+            margin-top: 15px;
+            font-size: 24px;
+            color: #333;
+        }
+        .left-section p {
+            color: #777;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        .social-links {
+            margin-top: 15px;
+        }
+        .social-icon {
+            font-size: 18px;
+            margin: 0 10px;
+            color: #333;
+            transition: color 0.3s;
+        }
+        .social-icon:hover {
+            color: #007bff; /* Added hover effect */
+        }
+        .right-section {
+            flex: 2;
+            flex-basis: 500px;
+        }
+        .section-title {
+            font-size: 22px;
+            color: #333;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .info-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .info-item i {
+            margin-right: 10px;
+            color: #007bff;
+        }
+        .info-item p {
+            font-size: 16px;
+            color: #555;
+            margin: 0;
+        }
+        .skills, .education, .experience {
+            margin-bottom: 20px;
+        }
+        .skill {
+            margin-right: 10px;
+            background-color: #007bff;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            transition: transform 0.3s;
+        }
+        .skill:hover {
+            transform: scale(1.1); /* Added hover effect */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .resume-container {
+                flex-direction: column; /* Stack sections on smaller screens */
+            }
+            .left-section {
+                margin-right: 0;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .right-section {
+                flex-basis: auto;
+            }
+        }
+    </style>
+</head>
+<body style="background-color:powderblue;">
+
+<div class="resume-container">
+    <!-- Left Section -->
+    <div class="left-section">
+        <img src="image.jpg" alt="Student Photo">
+        <h2>Meet Patil</h2>
+        <p>Computer Science Student</p>
+        <p>Pimpri Chinchwad University</p>
+        <p>Email: meetpatil1104@gmail.com</p>
+        <p>Phone: +91 95372**670 </p>
+        <div class="social-links">
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-section">
+        <div class="skills">
+            <div class="section-title">Skills</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+        </div>
+
+        <div class="education">
+            <div class="section-title">Education</div>
+            <div class="info-item">
+                <i class="fas fa-graduation-cap"></i>
+                <p>B.Tech in Computer Science</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-university"></i>
+                <p>PCET's Pimpri Chinchwad University , 2024-Present</p>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="section-title">Experience</div>
+            <div class="info-item">
+                <i class="fas fa-laptop-code"></i>
+                <p>Web Developer Intern - XYZ Company</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-calendar-alt"></i>
+                <p>June 2024 - August 2024</p>
+            </div>
+            <div class="info-item">
+                <p>Worked on front-end development using HTML, CSS, and JavaScript to build responsive web pages.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
