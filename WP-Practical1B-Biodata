@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .resume-container {
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .header {
+            text-align: center;
+        }
+        .header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #007bff;
+        }
+        .header h2 {
+            margin: 10px 0;
+            color: #007bff;
+        }
+        .section-title {
+            font-size: 18px;
+            color: #333;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        .info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="header">
+            <img src="image.png" alt="Student Photo">
+            <h2>Meet Patil</h2>
+            <p>Computer Science Student</p>
+            <p>Pimpri Chinchwad University</p>
+        </div>
+        <div class="info">
+            <p><strong>Email:</strong> meetpatil1104@gmail.com</p>
+            <p><strong>Phone:</strong> +91 95372**670</p>
+            <p><strong>Address:</strong> 7, Adarsh Park Society, Navsari</p>
+            <p><strong>Roll No.:</strong> 29 | Div.-C</p>
+        </div>
+        <div class="section-title">Education</div>
+        <div class="info">
+            <p><strong>B.Tech in Computer Science</strong></p>
+            <p>PCET's Pimpri Chinchwad University, 2024-Present</p>
+            <p><strong>HSC:</strong> 89.8%</p>
+            <p><strong>SSC:</strong> 86.6%</p>
+        </div>
+        <div class="section-title">Skills</div>
+        <div class="info">
+            <p>HTML, CSS, JavaScript, Python, Web Designing</p>
+        </div>
+        <div class="section-title">Hobbies</div>
+        <div class="info">
+            <p>1. Sports</p>
+            <p>2. Gaming</p>
+            <p>3. Exercise</p>
+        </div>
+    </div>
+</body>
+</html>
