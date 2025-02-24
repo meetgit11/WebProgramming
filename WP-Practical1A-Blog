@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the wonders of Indian tourism, from cultural heritage to adventure, spirituality, and modern attractions.">
+    <title>Indian Tourism</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS for styling -->
+    <style>
+        body { background-color: #f4f4f4; font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background-color: #333; color: white; text-align: center; padding: 15px 0; }
+        nav { text-align: center; padding: 10px; background: #444; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        section { background-color: #fff; margin: 20px; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .btn { display: inline-block; padding: 10px 15px; margin-top: 10px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; text-decoration: none; }
+        .btn:hover { background-color: #0056b3; }
+        .gallery img { width: 100%; height: auto; border-radius: 8px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1><em><strong>Exploring the Wonders of Indian Tourism</strong></em></h1>
+</header>
+
+<!-- Navigation Bar -->
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact Us</a>
+</nav>
+
+<main>
+    <section>
+        <h2><em>Cultural and Heritage Sites</em></h2>
+        <figure>
+            <img src="tajmahal.jpg" alt="The Taj Mahal, a symbol of love, built with white marble, standing gracefully at sunrise.">
+            <figcaption>The Majestic Taj Mahal – A Wonder of the World</figcaption>
+        </figure>
+        <p>India is home to remarkable cultural landmarks, including the Taj Mahal, Jaipur’s forts, and ancient temples like Meenakshi and Khajuraho.</p>
+        <a href="#" class="btn">Learn More</a>
+    </section>
+
+    <section>
+        <h2><em>Natural Beauty</em></h2>
+        <figure>
+            <img src="keralabackwater.jpg" alt="A serene view of Kerala’s backwaters, featuring houseboats floating between lush greenery and calm waters.">
+            <figcaption>Tranquil Kerala Backwaters – A Slice of Heaven</figcaption>
+        </figure>
+        <p>From the Himalayas to Kerala’s backwaters, India offers diverse landscapes, including deserts, beaches, and lush forests.</p>
+        <a href="#" class="btn">Explore More</a>
+    </section>
+
+    <section>
+        <h2><em>Adventure and Wildlife</em></h2>
+        <figure>
+            <img src="tigerjimcorbett.jpg" alt="A Bengal tiger captured mid-stride in the dense forests of Jim Corbett National Park.">
+            <figcaption>Jim Corbett National Park – Experience the Wild</figcaption>
+        </figure>
+        <p>Adventure seekers can explore trekking in the Himalayas, desert safaris, and diverse wildlife in national parks.</p>
+        <a href="#" class="btn">Discover More</a>
+    </section>
+
+    <section>
+        <h2><em>Spiritual Journeys</em></h2>
+        <figure>
+            <img src="varnasighats.jpg" alt="Devotees performing rituals on the sacred Varanasi ghats, with oil lamps floating on the Ganges River.">
+            <figcaption>Varanasi Ghats – The Spiritual Heart of India</figcaption>
+        </figure>
+        <p>From Varanasi’s sacred Ganges to Ladakh’s monasteries, India offers profound spiritual experiences.</p>
+        <a href="#" class="btn">Find Peace</a>
+    </section>
+
+    <section>
+        <h2><em>Festivals and Cuisine</em></h2>
+        <figure>
+            <img src="holi.jpg" alt="People drenched in vibrant colors celebrating Holi, the festival of colors, with joy and laughter.">
+            <figcaption>Vibrant Holi Celebrations – Colors of India</figcaption>
+        </figure>
+        <p>Experience India’s vibrant festivals like Diwali and Holi, and indulge in its diverse regional cuisines.</p>
+        <a href="#" class="btn">Taste the Culture</a>
+    </section>
+
+    <section>
+        <h2><em>Modern Attractions</em></h2>
+        <figure>
+            <img src="mumbainights.jpg" alt="A breathtaking view of Mumbai’s skyline at night, showcasing illuminated skyscrapers and bustling city life.">
+            <figcaption>Mumbai – The Financial Capital</figcaption>
+        </figure>
+        <p>India’s modern cities like Mumbai and Bangalore blend heritage with technological and economic progress.</p>
+        <a href="#" class="btn">Visit Now</a>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Indian Tourism Guide. All rights reserved. Blog created by Meet Patil</p>
+</footer>
+
+</body>
+</html>
