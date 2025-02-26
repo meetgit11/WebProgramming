@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Physics Photo Gallery</h1>
+    <p>Explore breathtaking image gallery of physics and its concepts.</p>
+</header>
+
+<main>
+    <section class="gallery">
+        <img src="black-hole.jpg" alt="Black Hole Singularity">
+        <img src="quantum-entanglement.jpg" alt="Quantum Entanglement Visualization">
+        <img src="particle-collision.jpg" alt="Particle Collision in a Hadron Collider">
+        <img src="electromagnetic-waves.jpg" alt="Electromagnetic Waves Spectrum">
+        <img src="relativity-time-dilation.jpg" alt="Time Dilation Concept from Relativity">
+        <img src="gravity-waves.jpg" alt="Gravitational Waves in Space">
+        <img src="supernova-explosion.jpg" alt="Supernova Explosion">
+        <img src="double-slit-experiment.jpg" alt="Double-Slit Experiment">
+        <img src="magnetic-field.jpg" alt="Magnetic Field Lines Visualization">
+        <img src="string-theory.jpg" alt="String Theory Representation">
+        <img src="schrodinger-cat.jpg" alt="Schrödinger's Cat Thought Experiment">
+        <img src="nuclear-fusion.jpg" alt="Nuclear Fusion in the Sun">
+        <img src="higgs-boson.jpg" alt="Higgs Boson Discovery">
+        <img src="wormhole.jpg" alt="Hypothetical Wormhole Concept">
+        <img src="dark-matter.jpg" alt="Dark Matter Distribution in the Universe">
+        <img src="laser-interferometry.jpg" alt="Laser Interferometry for LIGO">
+        <img src="neutron-star.jpg" alt="Neutron Star Emitting Radiation">
+        <img src="antimatter.jpg" alt="Antimatter Particle Interaction">
+        <img src="plasma-physics.jpg" alt="Plasma Confinement in a Tokamak">
+        <img src="cosmic-microwave.jpg" alt="Cosmic Microwave Background Radiation">
+        <img src="atom-structure.png" alt="Structure of Atom">
+        <img src="thermodynamics.jpg" alt="Thermodynamics">
+        <img src="tesla-coil.jpg" alt="Tesla Coil">
+        <img src="electromagnetism.jpg" alt="Electromagnetism">
+        <footer>
+          <p>&copy; 2025 Physics Image Gallery. All rights reserved.Image Gallery created by Meet Patil</p>
+        </footer>
+    </section>
+</main>
+
+</body>
+</html>
